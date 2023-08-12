@@ -36,11 +36,9 @@ body{
     cursor:pointer;
     padding:10px;	
 }
-.rating:hover{
-    background-color: #FFD700;
-    color: white;
-}
-.rating:hover{
+
+.rating:hover,
+.rating.active{
     background: brown;
     color: white;
     border-radius:10px;
